@@ -65,6 +65,7 @@ function Cases (props) {
                     <h4>Case Type: {rock.case_type} </h4>
                     <h4> Date: {rock.date} </h4>
                   <h4>Notes: {rock.notes} </h4>
+                  <h4>Assigned to: # {rock.assigned_to} </h4>
                  
             </Box>
                     
