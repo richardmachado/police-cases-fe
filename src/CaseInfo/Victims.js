@@ -20,17 +20,13 @@ padding-bottom: 4rem;
 margin-bottom: 4rem;
 `
 
-
-
-
-function Victims (props) {
+function Victims(props) {
   const [neo, setNeo] = useState([]);
-
 
   useEffect(() => {
     axios
 
-      .get("https://police-cases.herokuapp.com/api/victims")   
+      .get("http://localhost:4000/api/victims")   
       .then(response => {
         console.log(response)  
           setNeo(response.data);

@@ -63,9 +63,10 @@ function Cases (props) {
            <Box key={rock.case_id}>
                     <h4>Status: {rock.status} </h4>
                     <h4>Case Type: {rock.case_type} </h4>
-                    <h4> Date: {rock.date} </h4>
+              <h4> Date: {rock.date} </h4>
+              <h4>Victim Name: {rock.name}</h4>
                   <h4>Notes: {rock.notes} </h4>
-                  <h4>Assigned to: # {rock.assigned_to} </h4>
+                  <h4>Assigned to Detective: # {rock.assigned_to} </h4>
                  
             </Box>
                     

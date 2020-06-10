@@ -7,7 +7,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 28px;
-color: #5A4E4E;
+color: white;
 mix-blend-mode: normal;
 `
   
@@ -16,7 +16,8 @@ mix-blend-mode: normal;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #374f6b;
+    background-image: url("https://images.unsplash.com/photo-1557084230-27999d53fc13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
     box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
     border-radius: 4px;
     position: relative;
@@ -26,7 +27,8 @@ mix-blend-mode: normal;
     z-index: 99;
     padding: 17px 10px;
     transition: transform 200ms ease-in-out;
-  `
+ 
+    `
   export const Button = styled.button `
   font-size: 21px;
   padding: 5px 20px;
@@ -71,13 +73,14 @@ width: 30%;
     /* or 143% */
     letter-spacing: 0.25px;
     /* Smoke - Text */
-    color: #5A4E4E;
+    color: white;
     mix-blend-mode: normal;
+   
   `
 
   export const Rectangle = styled.div `
   border: 1px solid rgba(25, 25, 25, 0.32);
-box-sizing: border-box;
+  box-sizing: border-box;
   
   `
  // turn into styled components and delete any duplicates
@@ -98,7 +101,9 @@ box-sizing: border-box;
   
   text-align: left;
   display: flex;
-  flex-direction: column;`
+  flex-direction: column;
+  color:white;
+  `
 
  export const Inputs = styled.input `
  margin-top: 1px;
@@ -112,4 +117,5 @@ box-sizing: border-box;
  border-radius: 4px;
  margin-bottom: 31px;
  transition: all 250ms ease-in-out;
+
  `

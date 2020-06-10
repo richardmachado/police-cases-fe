@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 
-import Cases from '../CaseInfo/Cases';
+
 
 export class Dashboard extends Component {
     render(props) {
@@ -11,7 +11,8 @@ export class Dashboard extends Component {
                 <h1>My Dashboard </h1>
                 <Link to="./cases">Cases</Link> 
                 <Link to="./victims">Victims</Link>
-
+                <h2>Captain Notes</h2>
+                <p>Any news from commanding officer will go here</p>
             </div>
         )
     }
