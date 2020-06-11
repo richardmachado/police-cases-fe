@@ -7,7 +7,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 28px;
-color: white;
+
 mix-blend-mode: normal;
 `
   
@@ -16,8 +16,7 @@ mix-blend-mode: normal;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #374f6b;
-    background-image: url("https://images.unsplash.com/photo-1557084230-27999d53fc13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+ 
     box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
     border-radius: 4px;
     position: relative;
@@ -102,7 +101,7 @@ width: 30%;
   text-align: left;
   display: flex;
   flex-direction: column;
-  color:white;
+
   `
 
  export const Inputs = styled.input `
@@ -119,3 +118,21 @@ width: 30%;
  transition: all 250ms ease-in-out;
 
  `
+
+ export const VolunteerForm = styled.div `
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
+    border-radius: 4px;
+    position: relative;
+    z-index: 99;
+    width: 80%;
+    height: 100%;
+    z-index: 99;
+    padding: 17px 10px;
+    transition: transform 200ms ease-in-out;
+ 
+    `

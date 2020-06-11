@@ -35,31 +35,28 @@ class Header extends Component {
         return (
             <div>
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">Police Database</NavbarBrand>
+                    <NavbarBrand href="/">Dane Sanctuary Coalition</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="/home">Home</NavLink>
+                                <NavLink href="/login">Login</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#">Other</NavLink>
+                                <NavLink href="/volunteer">Volunteer</NavLink>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
-                                    Options
+                                   Speeches
                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        Option 1
+                                       Dane Sanctuary
                   </DropdownItem>
                                     <DropdownItem>
-                                        Option 2
+                                       Keeping Families Together
                   </DropdownItem>
-                                    <DropdownItem divider />
-                                    <DropdownItem>
-                                        Option 3
-                  </DropdownItem>
+                                    
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                         </Nav>

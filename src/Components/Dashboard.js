@@ -8,11 +8,10 @@ export class Dashboard extends Component {
         console.log(props)
         return (
             <div>
-                <h1>My Dashboard </h1>
-                <Link to="./cases">Cases</Link> 
-                <Link to="./victims">Victims</Link>
-                <h2>Captain Notes</h2>
-                <p>Any news from commanding officer will go here</p>
+                <h1>Welcome to Your Dashboard, Mahoney </h1>
+
+                <p>here you will be able to do take notes or whatever else you need to do</p>
+              
             </div>
         )
     }

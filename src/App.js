@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, Link, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Navigation from "./Navigation/Navigation"
 
@@ -9,6 +9,7 @@ import LoginForm from './Login/Login';
 import Dashboard from "./Components/Dashboard";
 import Cases from "./CaseInfo/Cases";
 import Victims from "./CaseInfo/Victims";
+import Volunteer from './Components/Volunteer'
 
 
 function App() {
@@ -17,12 +18,12 @@ function App() {
       <Navigation />
       <Switch>
 
-        <Route exact path='/' component={LoginForm} />
-        <Route path='/home' component={Home} />
+        <Route exact path='/' component={Home} />
+        <Route path='/login' component={LoginForm} />
 
-        //privateroutes
+       
         <Route path='/dashboard' component={Dashboard} />
-        <Route path='/cases' component={Cases} />
+        <Route path='/volunteer' component={Volunteer} />
         <Route path='/victims' component={Victims} />
 
       </Switch>
