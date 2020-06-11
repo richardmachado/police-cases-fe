@@ -51,10 +51,12 @@ class Header extends Component {
                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                       Dane Sanctuary
+                                    <NavLink href="/speeches"> Dane Sanctuary</NavLink>
+                                    
                   </DropdownItem>
                                     <DropdownItem>
-                                       Keeping Families Together
+                                    <NavLink href="/speeches"> Keeping Families Together</NavLink>
+                                       
                   </DropdownItem>
                                     
                                 </DropdownMenu>

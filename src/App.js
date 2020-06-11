@@ -10,6 +10,7 @@ import Dashboard from "./Components/Dashboard";
 import Cases from "./CaseInfo/Cases";
 import Victims from "./CaseInfo/Victims";
 import Volunteer from './Components/Volunteer'
+import Speeches from './Components/Speeches';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/dashboard' component={Dashboard} />
         <Route path='/volunteer' component={Volunteer} />
         <Route path='/victims' component={Victims} />
+        <Route path='/speeches' component={Speeches} />
 
       </Switch>
 
